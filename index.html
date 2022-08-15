@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo" >
+        <img src="./img/logo.png">
+        <h1>Shopping</h1>
+        </div>
+        <form>
+          <input type = "text" name = "search" placeholder="Search.."/>
+          <button id="search-button" type="button" class="btn btn-primary">
+         <img src="https://icon-library.com/images/search-icon-white/search-icon-white-16.jpg" class="search" alt="searchimg">
+          </button>
+        </form>
+    </header>
+    <main>
+        <div class="cart">
+            <h1>MY CART</h1>
+            <div class="cont">
+                <button class="like"> </button>
+                <img src="./img/iphone13.jpg" class="img">
+                <p class="descrip"> Apple iphone 13 128Go - <br>
+                    Starligth
+                    </p>
+                    <div class="quantity">     
+                        <button class="minus" > - </button>
+                        <input type="text" class="qnt"  value=" 1">
+                        <button class="plus" >+</button>
+                    </div>
+                    <p class="price"> 4399.00 </p>
+                    <button class="cancel"> </button>
+             </div>
+             <div class="cont">
+                <button class="like">  </button>
+                <img src="./img/applewatch.jpg" class="img">
+                <p class="descrip"> Apple watch series 6 GPS - <br>
+                    Gold/Sandrosa
+                    </p>
+                    <div class="quantity">     
+                        <button class="minus" > - </button>
+                        <input type="text" class="qnt"  value=" 1">
+                        <button class="plus" >+</button>
+                    </div>
+                    <p class="price"> 1729.00 </p>
+                    <button class="cancel"> </button>
+             </div>
+             <div class="cont">
+                <button class="like">  </button>
+                <img src="./img/airpods.jpg" class="img">
+                <p class="descrip"> Airpods 2 - Apple
+                    
+                    </p>
+                    <div class="quantity">     
+                        <button class="minus" > - </button>
+                        <input type="text" class="qnt"  value=" 1">
+                        <button class="plus" >+</button>
+                    </div>
+                    <p class="price" > 779.00 </p>
+                    <button class="cancel"> </button>
+             </div> 
+             <div class="total">
+                <p>Total:</p> 
+                <input class="tot" value="6907" />
+             </div>
+        </div>
+    </main>
+
+<script src="./ScriptFile.js"></script>
+</body>
+</html>
